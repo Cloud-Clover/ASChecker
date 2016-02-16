@@ -63,7 +63,7 @@ public class App {
 
         Document document;
         try {
-            document = Jsoup.parse(new URL("http://localhost:8080/bodgeit/"), TIMEOUT);
+            document = Jsoup.parse(new URL("http://vectv.net/"), TIMEOUT);
         } catch (MalformedURLException e) {
             throw new RuntimeException("Error due to malformed URL parameter", e);
         } catch (IOException e) {
