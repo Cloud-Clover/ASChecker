@@ -58,7 +58,7 @@ public class Issue {
                 "testname='" + testname + '\'' +
                 ", description='" + description + '\'' +
                 ", severity=" + severity +
-                ", element=" + element +
+//                ", element=" + element +
                 '}';
     }
 }

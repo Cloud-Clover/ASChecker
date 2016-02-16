@@ -37,8 +37,6 @@ public class pp {
 
             FuzzEngine.fuzzFormInputs(fuzzyPage);
 
-
-
         } catch (IOException e) {
             e.printStackTrace();
         }
